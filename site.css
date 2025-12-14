@@ -29,8 +29,9 @@ body {
 
 .header-container {
   background-color: rgb(225, 205, 180);
-  display:-ms-inline-grid;
-  padding-top: 104px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding-left: 250px;
 }
 
